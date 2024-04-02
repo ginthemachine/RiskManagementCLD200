@@ -63,46 +63,6 @@ annotate service.Risks with {
     }
 };
 annotate service.Risks with @(
-    UI.FieldGroup #GeneratedGroup1 : {
-        $Type : 'UI.FieldGroupType',
-        Data : [
-            {
-                $Type : 'UI.DataField',
-                Label : 'title',
-                Value : title,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'owner',
-                Value : owner,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'prio_code',
-                Value : prio_code,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'descr',
-                Value : descr,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'impact',
-                Value : impact,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'criticality',
-                Value : criticality,
-            },
-            {
-                $Type : 'UI.DataField',
-                Label : 'PrioCriticality',
-                Value : PrioCriticality,
-            },
-        ],
-    },
     UI.Facets : [
         {
             $Type : 'UI.CollectionFacet',
